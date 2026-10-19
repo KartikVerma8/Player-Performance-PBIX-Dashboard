@@ -19,45 +19,43 @@
 
 ## Overview
 
-This project analyzes player performance during the ICC Men's T20 World Cup 2024 using Microsoft Power BI. The dashboard provides interactive insights into batting, bowling, and all-round performance to help identify top-performing players across different roles.
+This project analyzes player performance during the ICC Men's T20 World Cup 2024 using Microsoft Power BI. It provides interactive insights into batting, bowling, and all-round performance to identify top-performing players across different roles.
 
-It also features a data-driven **Dream Team XI**, selecting players based on performance metrics such as batting average, strike rate, wickets, economy rate, and overall impact.
+The dashboard also features a data-driven Dream Team XI, selecting players based on performance metrics such as batting average, strike rate, wickets, economy rate, and overall impact.
 
 ## Business Problem
 
-Cricket tournaments generate large amounts of player performance data, making it difficult to compare players across different roles using raw statistics alone.
+Cricket tournaments generate extensive player statistics, making it challenging to compare players across different roles using raw data alone.
 
-The objective of this project is to transform player statistics into meaningful, interactive visualizations that help answer questions such as:
+This project transforms player statistics into interactive visualizations to answer questions such as:
 
 - Who are the top-performing batsmen and bowlers?
-- Which openers and middle-order batsmen demonstrate strong batting performance?
-- Which all-rounders provide a balanced contribution with bat and ball?
+- Which openers and middle-order batsmen perform best across selected metrics?
+- Which all-rounders contribute effectively with both bat and ball?
 - Which bowlers combine wicket-taking ability with economical bowling?
 - How can a Dream Team XI be selected using performance-based criteria?
 
 ## Dataset
 
 - **Tournament:** ICC Men's T20 World Cup 2024
-- **Source:** Kaggle.com
+- **Source:** Kaggle
 - **Format:** Microsoft Excel
-- **Data fields:** Player Name, Role, Team, Runs, Wickets, Batting Average, Strike Rate, and Economy Rate, along with other relevant performance attributes available in the dataset.
+- **Attributes:** Player Name, Team, Role, Runs, Wickets, Batting Average, Strike Rate, Economy Rate, and other available performance metrics.
 
-The dataset was imported into Power BI Desktop for cleaning, transformation, modeling, and visualization.
+The dataset was imported into Power BI Desktop for data cleaning, transformation, modeling, and visualization.
 
-*Note: Add the original dataset link and exact row count here if available.*
+*Note: Add the original Kaggle dataset URL and exact dataset details when available.*
 
 ## Tools & Technologies
 
-- **Power BI Desktop:** Dashboard development and data visualization
-- **Microsoft Excel:** Dataset source and initial data storage
+- **Power BI Desktop:** Dashboard development and visualization
+- **Microsoft Excel:** Dataset source
 - **Power Query (M):** Data cleaning and transformation
-- **DAX:** Measures, calculated metrics, and KPIs
+- **DAX:** Measures, calculations, and KPIs
 - **Data Modeling:** Relationships between relevant tables
 - **Kaggle:** Dataset source
 
 ## Project Structure
-
-The following is a suggested repository structure. Adjust the filenames to match the files actually uploaded to your GitHub repository.
 
 ```text
 Player-Performance-PBIX-Dashboard/
@@ -69,20 +67,24 @@ Player-Performance-PBIX-Dashboard/
 │   └── Player_Performance_Dashboard.pbix
 │
 ├── Images/
-│   └── dashboard_screenshot.png
+│   ├── powerhouse-openers.png
+│   ├── pressure-absorbers.png
+│   ├── power-surge.png
+│   ├── all-rounders.png
+│   └── fast-bowlers.png
 │
 └── README.md
 ```
+
+*The filenames above are suggested names. Ensure they match the files uploaded to your repository.*
 
 ## Data Cleaning & Preparation
 
 Data preparation was performed using Power Query Editor in Power BI.
 
-The main steps included:
-
 1. **Data Import:** Imported the Excel dataset into Power BI Desktop.
 2. **Promoted Headers:** Used the first row as column headers where required.
-3. **Data Type Correction:** Assigned appropriate data types to numerical and text columns.
+3. **Data Type Correction:** Assigned appropriate data types to columns.
 4. **Column Renaming:** Renamed columns for better readability.
 5. **Column Removal:** Removed unnecessary columns that were not relevant to the analysis.
 6. **Missing Value Handling:** Investigated missing values and removed incomplete records or corrected them after verification against ESPNcricinfo, where appropriate.
@@ -91,126 +93,131 @@ The main steps included:
 
 ## Exploratory Data Analysis (EDA)
 
-The exploratory analysis focused on comparing player performance across batting, bowling, and all-rounder categories.
+The exploratory analysis focused on comparing player performance across different batting and bowling roles.
 
-Key areas of analysis included:
-
-- **Batting Performance:** Total runs, batting averages, and strike rates.
-- **Opening Batsmen:** Comparison of run-scoring performance and strike rates.
-- **Middle-Order Batsmen:** Analysis of batting consistency, boundaries, and strike rates.
-- **All-Rounders:** Evaluation of combined batting and bowling contributions.
-- **Bowling Performance:** Wickets taken, bowling averages, and economy rates.
-- **Team Performance:** Comparison of player contributions across participating teams.
-
-These analyses were used to build interactive report pages and support the selection of players for the Dream Team XI.
+- **Batting Performance:** Runs, batting averages, strike rates, and boundary percentages.
+- **Openers:** Comparison of leading openers by runs, average, and strike rate.
+- **Middle-Order Batsmen:** Evaluation of batting consistency and scoring contribution.
+- **All-Rounders:** Comparison of batting and bowling contributions using an impact metric.
+- **Bowlers:** Analysis of wickets, bowling averages, strike rates, and economy rates.
+- **Player Comparison:** Interactive comparison of players using tables, trend charts, and scatter plots.
 
 ## Research Questions & Key Findings
 
 ### Research Questions
 
 1. Who scored the most runs during the tournament?
-2. Which players performed best as openers?
-3. Which middle-order batsmen demonstrated strong performance across the selected metrics?
-4. Which all-rounders made the most valuable combined contributions?
-5. Which bowlers took the most wickets while maintaining economical bowling figures?
+2. Which openers performed best in terms of runs and strike rate?
+3. Which middle-order batsmen demonstrated strong batting performance?
+4. Which all-rounders made valuable contributions with bat and ball?
+5. Which bowlers combined wicket-taking ability with economical bowling?
 6. Which players should be considered for a data-driven Dream Team XI?
 
 ### Key Findings
 
-The dashboard enables users to identify and compare top-performing players across the selected categories.
+The dashboard provides interactive views to identify and compare players across the selected categories.
 
-- Batting performance can be compared using runs, average, and strike rate.
-- Bowling performance can be evaluated using wickets, bowling average, and economy rate.
-- All-rounder contributions can be compared using the selected impact metric.
-- The Dream Team page presents a role-based selection of 11 players using the project's chosen performance criteria.
+- Batting performance can be compared using runs, average, strike rate, and boundary percentage.
+- Bowling performance can be assessed using wickets, economy rate, and bowling average.
+- All-rounders can be evaluated using their combined batting and bowling contributions.
+- The player comparison visuals help highlight differences between selected players.
+- The Dream Team page presents an XI based on the project's defined selection criteria.
 
-*Add specific player names, statistics, and rankings from your actual dashboard to make this section more informative.*
+*Add specific player names and numerical findings from the dashboard to make this section more informative.*
 
 ## Dashboard
 
-The Power BI report contains six analytical pages.
+The Power BI report includes specialized pages for player performance analysis. The screenshots below show the corresponding dashboard views.
 
-### 🏠 Page 1 – Overview Dashboard
+### 🏏 1. Powerhouse / Openers
 
-- Tournament summary KPIs, including total matches, runs, wickets, and average strike rate.
-- Dynamic indicators for top run scorer, best bowler, Player of the Match, and best economy rate, where supported by the dataset.
-- Overview of team and player performance.
+Analyzes the leading opening batsmen using runs, batting average, strike rate, and boundary percentage.
 
-### 🏏 Page 2 – Openers Analysis
+- Compares the highest run-scoring openers.
+- Displays batting metrics in a player comparison table.
+- Uses visual comparisons to explore batting average and strike rate.
+- Supports interactive player selection.
 
-- Comparison of the top 5–6 openers using runs and strike rates.
-- Filters for country, player role, and venue where available.
-- Identification of high-performing opening batsmen.
+![Powerhouse/Openers Dashboard](Images/powerhouse-openers.png)
 
-### 🎯 Page 3 – Middle-Order Performance
+### 🎯 2. Pressure Absorbers
 
-- Analysis of batting average, boundaries, and strike rate.
-- Comparison of middle-order players across teams.
-- Evaluation of batting consistency and scoring contribution.
+Focuses on middle-order and pressure-handling batting performance using the selected batting metrics.
 
-### 💪 Page 4 – All-Rounders Analysis
+- Compares runs, batting average, strike rate, and boundary percentage.
+- Highlights differences in player scoring performance.
+- Includes comparative visuals for batting average and strike rate.
 
-- Comparison of batting and bowling contributions.
-- Impact Score used to support player evaluation.
-- Scatter plot illustrating the relationship between run contribution and wicket impact.
+![Pressure Absorbers Dashboard](Images/pressure-absorbers.png)
 
-### 🎳 Page 5 – Bowlers Dashboard
+### 💥 3. The Power Surge
 
-- Identification of leading wicket-takers.
-- Comparison of bowling averages and economy rates.
-- Analysis of wickets per match and economy variation, where supported by the data.
+Analyzes powerful batting contributions using batting average, strike rate, and related player performance metrics.
 
-### 🧢 Page 6 – Dream Team XI
+- Compares runs and batting performance across selected players.
+- Displays strike rate and batting average comparisons.
+- Supports player-level analysis through interactive visuals.
 
-A dedicated page presenting a proposed XI based on the project's performance criteria.
+![The Power Surge Dashboard](Images/power-surge.png)
 
-The selection approach described for this project includes:
+### 💪 4. All-Rounders
 
-- 3 openers evaluated using batting average and strike rate.
-- 3 middle-order batsmen evaluated using consistency and boundary ratio.
-- 2 all-rounders evaluated using Impact Score.
-- 3 bowlers evaluated using wicket-taking ability and economy rate.
+Evaluates players who contribute with both bat and ball.
 
-The page also includes player cards, role-based color coding, and summary indicators for team runs, wickets, and impact score.
+- Compares runs, batting average, strike rate, wickets, and economy rate.
+- Presents bowling statistics alongside batting metrics.
+- Uses a scatter plot to compare bowling strike rate and economy rate.
+- Supports evaluation of balanced all-round performance.
 
-### Dashboard Design & Interactivity
+![All-Rounders Dashboard](Images/all-rounders.png)
 
-- Cricket-inspired green, yellow, and blue color palette.
-- KPI cards, bar charts, scatter plots, and player cards.
-- Interactive slicers, cross-filtering, drill-through, and hover tooltips where configured.
-- Role-based organization for easier player comparisons.
+### 🎳 5. Fast Bowlers
+
+Analyzes fast-bowling performance using wickets, economy rate, bowling strike rate, and bowling average.
+
+- Highlights leading wicket-takers.
+- Compares economy rates and bowling averages.
+- Displays bowling performance trends.
+- Uses a scatter plot to compare bowling strike rate and economy rate.
+
+![Fast Bowlers Dashboard](Images/fast-bowlers.png)
+
+### 🎨 Dashboard Design & Interactivity
+
+- Cricket-inspired green, yellow, blue, and dark-themed design.
+- KPI visuals, player tables, trend charts, and scatter plots.
+- Interactive player selection and report navigation.
+- Group Stage and Super 8 filters.
+- Cross-filtering and tooltips where configured.
 
 ## How to Run This Project
 
-1. Download or clone this GitHub repository.
-2. Download the Excel dataset from the repository's dataset folder, if included.
+1. Clone or download this GitHub repository.
+2. Download the Excel dataset from the repository's `Dataset` folder, if included.
 3. Install Microsoft Power BI Desktop.
-4. Open the `.pbix` dashboard file in Power BI Desktop.
-5. If prompted, update the data source path to point to the downloaded Excel file.
-6. Refresh the dataset to load the data.
-7. Navigate through the report pages and use the available filters and interactive visuals.
-
-*Ensure the PBIX file and dataset are included in the repository, or provide links to their actual locations.*
+4. Open the `.pbix` file from the `Dashboard` folder.
+5. If prompted, update the data source path to the downloaded Excel dataset.
+6. Refresh the data and verify that all report visuals load correctly.
+7. Navigate through the dashboard pages and use the available filters.
 
 ## Final Recommendations
 
-Based on the analytical capabilities of this dashboard, the following recommendations can support further player-performance evaluation:
+Based on the analytical capabilities of this dashboard, the following recommendations can support player-performance evaluation:
 
-- **Compare players within their roles:** Evaluate openers, middle-order batsmen, all-rounders, and bowlers using role-appropriate metrics.
-- **Balance batting performance:** Consider both scoring volume and strike rate when comparing batsmen.
-- **Evaluate bowling effectiveness:** Review wickets alongside economy rate and bowling average instead of relying on a single metric.
-- **Assess all-round contributions:** Consider both batting and bowling performance when evaluating all-rounders.
-- **Use transparent selection criteria:** Apply consistent, role-specific criteria when selecting a Dream Team XI.
-- **Validate the Impact Score:** Test alternative weightings for runs and wickets to understand how the selection changes.
-- **Improve future analysis:** Incorporate match-level context, opposition strength, and consistency metrics if the required data is available.
+- **Compare players by role:** Use role-appropriate metrics rather than applying the same criteria to every player.
+- **Evaluate batting effectiveness:** Consider runs, batting average, and strike rate together.
+- **Assess bowling performance:** Evaluate wickets alongside economy rate and bowling average.
+- **Measure all-round contributions:** Consider both batting and bowling performance.
+- **Use transparent selection criteria:** Apply consistent metrics when selecting a Dream Team XI.
+- **Validate the Impact Score:** Test alternative weightings for runs and wickets to understand how player rankings change.
+- **Expand future analysis:** Include opposition strength, match conditions, and consistency metrics if the required data is available.
 
-These are analytical recommendations rather than verified tournament-specific conclusions. They should be refined using the actual dashboard findings.
+These are general analytical recommendations and should be refined using verified results from the dashboard.
 
 ## Author & Contact
 
 **Kartik Verma**
 
-- **LinkedIn:** [Add your LinkedIn profile URL](https://www.linkedin.com/)
 - **GitHub:** [KartikVerma8](https://github.com/KartikVerma8)
+- **LinkedIn:** Add your LinkedIn profile URL
 
-Feel free to explore the project and share feedback or suggestions for improvement.
