@@ -148,7 +148,7 @@ Focuses on middle-order and pressure-handling batting performance using the sele
 - Highlights differences in player scoring performance.
 - Includes comparative visuals for batting average and strike rate.
 
-![Pressure Absorbers Dashboard](Images/pressure-absorbers.png)
+[![Pressure Absorbers Dashboard](Images/pressure-absorbers.png)](https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/51552c14442e712cda475947838f447ba2a22532/Pressure-Absorber.png)
 
 ### 💥 3. The Power Surge
 
