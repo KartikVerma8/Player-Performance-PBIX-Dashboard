@@ -158,8 +158,7 @@ Analyzes powerful batting contributions using batting average, strike rate, and 
 - Displays strike rate and batting average comparisons.
 - Supports player-level analysis through interactive visuals.
 
-[![The Power Surge Dashboard](Images/power-surge.png)](https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/f1bcd4c2a146be00c76c2b876a81d69b73cfe282/Power%20Surge.png)
-
+https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/24ede2468991669c2a7dd808f16ea720f148cafb/images/Power%20Surge.png
 ### 💪 4. All-Rounders
 
 Evaluates players who contribute with both bat and ball.
