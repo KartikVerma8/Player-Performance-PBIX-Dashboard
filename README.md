@@ -148,8 +148,7 @@ Focuses on middle-order and pressure-handling batting performance using the sele
 - Highlights differences in player scoring performance.
 - Includes comparative visuals for batting average and strike rate.
 
-https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/f01f2e1c045f4d3167f9968b55c90ee44cd3afbe/Pressure-Absorber.png
-
+https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/e680725277da86cc01aec4e200733c36b263f7a5/images/Pressure-Absorber.png
 ### 💥 3. The Power Surge
 
 Analyzes powerful batting contributions using batting average, strike rate, and related player performance metrics.
