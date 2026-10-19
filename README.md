@@ -180,7 +180,7 @@ Analyzes fast-bowling performance using wickets, economy rate, bowling strike ra
 - Displays bowling performance trends.
 - Uses a scatter plot to compare bowling strike rate and economy rate.
 
-[Fast Bowlers.png](https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/bfbfd7aed40e922fca34253f72e2719489b1ebbf/Fast%20Bowlers.png)
+https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/5b2767502dd14b4d981a1044fda9c3ca43143d65/images/Fast%20Bowlers.png
 
 ### 🎨 Dashboard Design & Interactivity
 
