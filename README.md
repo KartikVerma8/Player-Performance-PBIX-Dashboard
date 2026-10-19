@@ -138,7 +138,7 @@ Analyzes the leading opening batsmen using runs, batting average, strike rate, a
 - Uses visual comparisons to explore batting average and strike rate.
 - Supports interactive player selection.
 
-https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/b8848ea419fc9a6f418f47df830d2adfe7e9c0f9/Power-House
+[https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/b8848ea419fc9a6f418f47df830d2adfe7e9c0f9/Power-House](https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/479469508eb3fd456b89ffc00a961facf959d06b/Power-House.png)
 
 ### 🎯 2. Pressure Absorbers
 
