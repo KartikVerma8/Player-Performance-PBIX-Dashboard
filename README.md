@@ -169,7 +169,7 @@ Evaluates players who contribute with both bat and ball.
 - Uses a scatter plot to compare bowling strike rate and economy rate.
 - Supports evaluation of balanced all-round performance.
 
-[![All-Rounders Dashboard](Images/all-rounders.png)](https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/93c82a9c39849f2f320f8a44db2679f06c4e4e5d/All%20rounders.png)
+https://github.com/KartikVerma8/Player-Performance-PBIX-Dashboard/blob/88e0218dbbb8990fab38a488474be583644ca6ec/images/All%20rounders.png
 
 ### 🎳 5. Fast Bowlers
 
